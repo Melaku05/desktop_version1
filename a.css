@@ -1,0 +1,20 @@
+.display-flex {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* gap: 12px; */
+  position: relative;
+  width: 100%;
+}
+
+#main,
+.about {
+  background-color: black;
+}
